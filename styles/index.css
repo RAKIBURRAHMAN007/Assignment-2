@@ -60,7 +60,7 @@ nav ul a{
 }
 .shape{
     font weight: 400;
-    height: 1000px;
+    
 }
 .home{
     height: 40px;
@@ -177,6 +177,27 @@ nav ul a{
 .card-details{
     color: rgba(255, 255, 255, 0.65);
     font-size: 12px;
+}
+.bar{
+    color: rgb(255, 255, 255);
+    display: none;
+    
+}
+
+
+@media screen and (max-width:576px){
+    .navbar{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .header-content{
+        flex-direction: column;
+        justify-items: center;
+        gap: 350px;
+    }
+
 }
 
 
