@@ -261,6 +261,115 @@ body{
     width: 366px;
     height: 312px;
 }
+.unique{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.50)) , url(../images/exercise4.png);
+    width: 100%;
+    
+    height: 100vh;
+}
+.unique-div{
+    width: 231px;
+    height: 550px;
+    background-color: rgb(34, 34, 34) ;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.unique-img{
+    width: 231px;
+    height: 200px;
+    border-radius: 10px;
+}
+.unique-main{
+    display: flex;
+    justify-content: space-around;
+}
+.bmi-start{
+    text-align: center;
+}
+.bmi-calculation{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(34, 34, 34) ;
+}
+.bmi-heading{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.class-bmi-part2{
+    width: 500px;
+    height: 386px;
+
+}
+.bmi-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.bmi-calculation{
+    display: flex;
+    justify-content: space-around;
+}
+.activity{
+    width: 395px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-input{
+    width: 190px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.common-option{
+    color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+    font-weight: 400;
+}
+.sex{
+    width: 195px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+}
+table{
+    border-collapse: collapse;
+    
+}
+.bmi-table{
+    height: 300px;
+}
 
 @media screen and (max-width:576px){
     .navbar{
@@ -344,6 +453,23 @@ body{
     .run-des{
         align-items: center;
         text-align: center;
+    }
+    .unique-main{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .unique{
+        height: 405vh;
+        /* background-repeat: no-repeat;
+        background-size: 100% 100%; */
+        background-image: none;
+    }
+    .bmi-calculation{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 220vh;
     }
    
 
