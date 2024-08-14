@@ -347,7 +347,7 @@ body{
 }
 .common-option{
     color: rgba(255, 255, 255, 0.6);
-     font-size: 16px;
+    font-size: 16px;
     font-weight: 400;
 }
 .sex{
@@ -359,6 +359,7 @@ body{
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
+    
 }
 td,th{
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -506,7 +507,8 @@ table{
 }
 .hr{
     width: 980px;
-    
+    background-color: gray;
+    opacity: 0.3;
 }
 .footer{
     display: flex;
