@@ -6,13 +6,8 @@
     font-weight: 400;
     font-style: normal;
 }
-.miama{
-    font-family: 'Miama', sans-serif;
-    
-  
-                                        
-    
-}
+
+
 
 header{
     height: 119vh;
@@ -61,7 +56,8 @@ nav ul a{
 }
 .shape{
     font-weight: 400;
-    
+    font-size: 100px;
+    font-family: 'Miama', sans-serif;
 }
 .home{
     height: 40px;
@@ -75,6 +71,17 @@ nav ul a{
     
    
 }
+.sub-span{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -360px;
+}
+.sub-span-2{
+    position: absolute;
+    margin-top: -50px;
+    
+}
+
 .common-btn{
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -89,7 +96,6 @@ nav ul a{
     color: white;
     font-weight: 900;
     font-size: 70px;
-    
 
 }
 
@@ -186,7 +192,11 @@ nav ul a{
 }
 body{
     background-color: #000000;
+    width: 100%;
+    margin: 0px;
+   
 }
+
 .habit{
     width: 100%;
 }
@@ -242,7 +252,8 @@ body{
 }
 .running{
     width: 100%;
-    margin-left: 105px;
+    margin-left: 0px;
+    
 }
 .run{
     width: 80%;
@@ -252,6 +263,7 @@ body{
     gap: 40px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
+    margin: auto;
 }
 .run-des{
     width: 443px;
@@ -385,12 +397,16 @@ table{
         align-items: center;
     }
     header{
-        height: 258vh;
+        height: 246vh;
         width: 100%;
        
     }
 
-
+    .sub-span{
+        margin-left: 0px;
+        margin-top: 80px;
+        position: relative;
+    }
     .header-content-title{
         color: white;
         font-weight: 700;
@@ -411,6 +427,7 @@ table{
         gap: 60px;
         
     }
+   
     .habits-start{
         flex-direction: column;
     }
@@ -467,9 +484,46 @@ table{
     }
     .bmi-calculation{
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        /* justify-content: space-around; */
+        /* align-items: center; */
         height: 220vh;
+        width: 100%;
+        
+        
+    }
+    .bmi-part2{
+        margin-left: 20px;
+        
+        
+    }
+    .bmi-part1{
+        margin-left: 20px;
+       
+        
+    }
+    
+    
+    .bmi-froms{
+        width: 100%;
+    }
+    .sub-span{
+        position: absolute;
+        margin-top: 90px;
+        margin-left: -250px;
+    }
+    .sub-span-2{
+        position: absolute;
+        margin-top: 0px;
+        
+    }
+    .common-input{
+        width: 250px;
+    }
+    .sex{
+        width: 255px;
+    }
+    .activity{
+        width: 515px;
     }
    
 
