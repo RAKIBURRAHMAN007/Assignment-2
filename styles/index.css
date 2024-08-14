@@ -162,6 +162,9 @@ nav ul a{
 .banner{
     position: relative;
 }
+.play-icon{
+    display: none;
+}
 .circle{
     height: 30px;
     width: 30px;
@@ -717,6 +720,17 @@ table{
         margin-left: 150px;
         
         
+    }
+    .play-icon{
+        display: block;
+        
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-top: 5px;
     }
    
 
